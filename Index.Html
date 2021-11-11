@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript OOP</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <main style="display: flex; justify-content: center; align-items: center; text-align: center;">
+
+        <container class="playfield">
+            <div class="playfield">
+                <div class="title">
+                    <h1>Number Guessing Game</h1>
+
+                </div>
+                <h2>SCORES</h2>
+                <div class="scoring">
+
+                    <div class="highest">
+                        <h4>Highest</h4>
+                        <p id="highscore">0</p>
+                    </div>
+
+                    <div class="current">
+                        <h4>Current</h4>
+                        <p id="current">0</p>
+                    </div>
+
+                </div>
+                <p id="instructions">Guess a Number Between 1 & 100!</p>
+                <div class="gameinfo">
+
+                    <div class="info">
+                        <div class="prevguess">
+                            <h4>Previous Guess</h4>
+                            <p id="prevguess">#</p>
+                        </div>
+                        <div class="time">
+                            <h4>Time</h4>
+                            <p id="clock">0</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="numberguess">
+                    <input type="text" name="numguess" id="numguess" />
+                    <button type="button" name="guessbtn" id="guessbtn">Guess</button>
+                    <button type="button" name="restartbtn" id="restartbtn">Restart</button>
+
+                </div>
+            </div>
+            </div>
+        </container>
+    </main>
+
+    <script src="looped.js"></script>
+</body>
+
+</html>
